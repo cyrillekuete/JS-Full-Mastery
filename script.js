@@ -1,4 +1,18 @@
-/*
+let firstName;
+firstName = "Jamerson";
+const lastName = "Simone";
+console.log(firstName + "" + lastName);
+let person = {
+  firstName: "Kuete",
+  lastName: "Cyrille",
+};
+console.log(person.firstName);
+
+const birthYear = 1995;
+let currentYear = 2023;
+myAge = currentYear - birthYear;
+console.log(myAge);
+
 ////////////////////////////////////
 // Linking a JavaScript File
 let js = "amazing";
@@ -10,6 +24,7 @@ console.log("Jonas");
 console.log(23);
 
 let firstName = "Matilda";
+
 
 console.log(firstName);
 console.log(firstName);
@@ -98,7 +113,7 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
-
+/*
 ////////////////////////////////////
 // Operator Precedence
 const now = 2037;

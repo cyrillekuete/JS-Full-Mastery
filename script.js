@@ -1,21 +1,43 @@
-const person1 = {
-  firstName: "John",
-  height: 1.69,
-  mass: 78,
-  johnBMI: mass / height ** 2,
-};
+// const person1 = {
+//   firstName: "John",
+//   height: 1.69,
+//   mass: 78,
+//   johnBMI: mass / height ** 2,
+// };
 
-const person2 = {
-  firstName: "Mark",
-  height: 1.88,
-  mass: 95,
-  markBMI: mass / height ** 2,
-  markHigherBMI : markBMI
-};
+// const person2 = {
+//   firstName: "Mark",
+//   height: 1.88,
+//   mass: 95,
+//   markBMI: mass / height ** 2,
+//   markHigherBMI: markBMI,
+// };
 
-console.log(person1.johnBMI);
-console.log(person2.markBMI);
-const markHigherBMI = markBMI;
+// console.log(person1.johnBMI);
+// console.log(person2.markBMI);
+// const markHigherBMI = markBMI;
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / heightJohn ** 2;
+// const markHigherBMI = BMIMark > BMIJohn;
+
+// console.log(BMIMark, BMIJohn, markHigherBMI);
+
+//Template Literals
+
+const name = "Kuete";
+const job = "Product Designer";
+const birthYear = 1995;
+const year = 2023;
+const cyrilleKuete = `I'm called ${name}, and I am ${
+  year - birthYear
+} year old ${job}!`;
+console.log(cyrilleKuete);
 
 /*
 ////////////////////////////////////

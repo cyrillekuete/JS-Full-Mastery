@@ -17,28 +17,47 @@
 // console.log(person2.markBMI);
 // const markHigherBMI = markBMI;
 
-// const massMark = 78;
-// const heightMark = 1.69;
-// const massJohn = 92;
-// const heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-// const BMIMark = massMark / heightMark ** 2;
-// const BMIJohn = massJohn / heightJohn ** 2;
-// const markHigherBMI = BMIMark > BMIJohn;
-
-// console.log(BMIMark, BMIJohn, markHigherBMI);
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+const markHigherBMI = BMIMark > BMIJohn;
+if (markHigherBMI) {
+  console.log(`Marks BMI ${BMIMark} is greater than John's ${BMIJohn}`);
+} else {
+  console.log(`John's ${BMIJohn} is greater than Marks BMI ${BMIMark}`);
+}
 
 //Template Literals
 
-const name = "Kuete";
-const job = "Product Designer";
-const birthYear = 1995;
-const year = 2023;
-const cyrilleKuete = `I'm called ${name}, and I am ${
-  year - birthYear
-} year old ${job}!`;
-console.log(cyrilleKuete);
+// const name = "Kuete";
+// const job = "Product Designer";
+// const birthYear = 1995;
+// const year = 2023;
+// const cyrilleKuete = `I'm called ${name}, and I am ${
+//   year - birthYear
+// } year old ${job}!`;
+// console.log(cyrilleKuete);
 
+// const age = 15;
+// const isOldEnough = age >= 18;
+// if (isOldEnough) {
+//   console.log("Sarah can start driving license");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. wait another ${yearsLeft} years`);
+// }
+// let century;
+// const birthYear = 1991;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
 /*
 ////////////////////////////////////
 // Operator Precedence

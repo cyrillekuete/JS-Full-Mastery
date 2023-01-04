@@ -82,6 +82,7 @@ const teamNameB = "Koalas";
 
 const scoreDolphines = [97, 112, 101];
 const scoreKoalas = [88, 91, 110];
+const minimumScore = 100;
 const averageScoreDolphines =
   (scoreDolphines[0] + scoreDolphines[1] + scoreDolphines[2]) / 3;
 // console.log(averageScoreDolphines);
@@ -90,15 +91,16 @@ const averageScoreKoalas =
   (scoreKoalas[0] + scoreKoalas[1] + scoreKoalas[2]) / 3;
 // console.log(averageScoreDolphines);
 
-if (averageScoreDolphines > averageScoreKoalas) {
+
+if (averageScoreDolphines > minimumScore && averageScoreDolphines > averageScoreKoalas) {
   console.log(
     `Hurray!! The Winner for this competition is The ${teamNameA} with a score of (${averageScoreDolphines})`
   );
-} else {
+} else if (averageScoreKoalas > minimumScore && averageScoreKoalas > averageScoreDolphines) {
   console.log(
     `Hurray!! The Winner for this competition is The ${teamNameB} with a score of (${averageScoreKoalas})`
   );
-}
+} else { console.log("None of you is in the game"); }
 /*
 ////////////////////////////////////
 // Operator Precedence

@@ -17,19 +17,19 @@
 // console.log(person2.markBMI);
 // const markHigherBMI = markBMI;
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / heightJohn ** 2;
-const markHigherBMI = BMIMark > BMIJohn;
-if (markHigherBMI) {
-  console.log(`Marks BMI ${BMIMark} is greater than John's ${BMIJohn}`);
-} else {
-  console.log(`John's ${BMIJohn} is greater than Marks BMI ${BMIMark}`);
-}
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / heightJohn ** 2;
+// const markHigherBMI = BMIMark > BMIJohn;
+// if (markHigherBMI) {
+//   console.log(`Marks BMI ${BMIMark} is greater than John's ${BMIJohn}`);
+// } else {
+//   console.log(`John's ${BMIJohn} is greater than Marks BMI ${BMIMark}`);
+// }
 
 //Template Literals
 
@@ -58,6 +58,47 @@ if (markHigherBMI) {
 //   century = 21;
 // }
 // console.log(century);
+// let height = 25;
+// height ? console.log('Yah! height is defined') : console.log('Yah height is not defined')
+
+// const age = 'age';
+// if (age === 18) console.log('You just became an adulty')
+
+// const hasDriversLicense = false;
+// const hasGoodVision = true;
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Sarah can be awarded a driver's licence");
+// } else {
+//   console.log("Sarah cannot be awarded a driver's license");
+// }
+
+// if (hasDriversLicense || hasGoodVision) {
+//   console.log("Sarah can be awarded a driver's licence");
+// } else {
+//   console.log("Sarah cannot be awarded a driver's license");
+// }
+const teamNameA = "Dolphines";
+const teamNameB = "Koalas";
+
+const scoreDolphines = [97, 112, 101];
+const scoreKoalas = [88, 91, 110];
+const averageScoreDolphines =
+  (scoreDolphines[0] + scoreDolphines[1] + scoreDolphines[2]) / 3;
+// console.log(averageScoreDolphines);
+
+const averageScoreKoalas =
+  (scoreKoalas[0] + scoreKoalas[1] + scoreKoalas[2]) / 3;
+// console.log(averageScoreDolphines);
+
+if (averageScoreDolphines > averageScoreKoalas) {
+  console.log(
+    `Hurray!! The Winner for this competition is The ${teamNameA} with a score of (${averageScoreDolphines})`
+  );
+} else {
+  console.log(
+    `Hurray!! The Winner for this competition is The ${teamNameB} with a score of (${averageScoreKoalas})`
+  );
+}
 /*
 ////////////////////////////////////
 // Operator Precedence

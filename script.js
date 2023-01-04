@@ -33,73 +33,73 @@
 
 //Template Literals
 
-// const name = "Kuete";
-// const job = "Product Designer";
-// const birthYear = 1995;
-// const year = 2023;
-// const cyrilleKuete = `I'm called ${name}, and I am ${
-//   year - birthYear
-// } year old ${job}!`;
-// console.log(cyrilleKuete);
+const name = "Kuete";
+const job = "Product Designer";
+const birthYear = 1995;
+const year = 2023;
+const cyrilleKuete = `I'm called ${name}, and I am ${
+  year - birthYear
+} year old ${job}!`;
+console.log(cyrilleKuete);
 
-// const age = 15;
-// const isOldEnough = age >= 18;
-// if (isOldEnough) {
-//   console.log("Sarah can start driving license");
-// } else {
-//   const yearsLeft = 18 - age;
-//   console.log(`Sarah is too young. wait another ${yearsLeft} years`);
-// }
-// let century;
-// const birthYear = 1991;
-// if (birthYear <= 2000) {
-//   century = 20;
-// } else {
-//   century = 21;
-// }
-// console.log(century);
-// let height = 25;
-// height ? console.log('Yah! height is defined') : console.log('Yah height is not defined')
+const age = 15;
+const isOldEnough = age >= 18;
+if (isOldEnough) {
+  console.log("Sarah can start driving license");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. wait another ${yearsLeft} years`);
+}
+let century;
+const birthYear = 1991;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+let height = 25;
+height ? console.log('Yah! height is defined') : console.log('Yah height is not defined')
 
-// const age = 'age';
-// if (age === 18) console.log('You just became an adulty')
+const age = 'age';
+if (age === 18) console.log('You just became an adulty')
 
-// const hasDriversLicense = false;
-// const hasGoodVision = true;
-// if (hasDriversLicense && hasGoodVision) {
-//   console.log("Sarah can be awarded a driver's licence");
-// } else {
-//   console.log("Sarah cannot be awarded a driver's license");
-// }
+const hasDriversLicense = false;
+const hasGoodVision = true;
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah can be awarded a driver's licence");
+} else {
+  console.log("Sarah cannot be awarded a driver's license");
+}
 
-// if (hasDriversLicense || hasGoodVision) {
-//   console.log("Sarah can be awarded a driver's licence");
-// } else {
-//   console.log("Sarah cannot be awarded a driver's license");
-// }
-// const teamNameA = "Dolphines";
-// const teamNameB = "Koalas";
+if (hasDriversLicense || hasGoodVision) {
+  console.log("Sarah can be awarded a driver's licence");
+} else {
+  console.log("Sarah cannot be awarded a driver's license");
+}
+const teamNameA = "Dolphines";
+const teamNameB = "Koalas";
 
-// const scoreDolphines = [97, 112, 101];
-// const scoreKoalas = [88, 91, 110];
-// const minimumScore = 100;
-// const averageScoreDolphines =
-//   (scoreDolphines[0] + scoreDolphines[1] + scoreDolphines[2]) / 3;
-// console.log(averageScoreDolphines);
+const scoreDolphines = [97, 112, 101];
+const scoreKoalas = [88, 91, 110];
+const minimumScore = 100;
+const averageScoreDolphines =
+  (scoreDolphines[0] + scoreDolphines[1] + scoreDolphines[2]) / 3;
+console.log(averageScoreDolphines);
 
-// const averageScoreKoalas =
-//   (scoreKoalas[0] + scoreKoalas[1] + scoreKoalas[2]) / 3;
-// console.log(averageScoreDolphines);
+const averageScoreKoalas =
+  (scoreKoalas[0] + scoreKoalas[1] + scoreKoalas[2]) / 3;
+console.log(averageScoreDolphines);
 
-// if (averageScoreDolphines > minimumScore && averageScoreDolphines > averageScoreKoalas) {
-//   console.log(
-//     `Hurray!! The Winner for this competition is The ${teamNameA} with a score of (${averageScoreDolphines})`
-//   );
-// } else if (averageScoreKoalas > minimumScore && averageScoreKoalas > averageScoreDolphines) {
-//   console.log(
-//     `Hurray!! The Winner for this competition is The ${teamNameB} with a score of (${averageScoreKoalas})`
-//   );
-// } else { console.log("None of you is in the game"); }
+if (averageScoreDolphines > minimumScore && averageScoreDolphines > averageScoreKoalas) {
+  console.log(
+    `Hurray!! The Winner for this competition is The ${teamNameA} with a score of (${averageScoreDolphines})`
+  );
+} else if (averageScoreKoalas > minimumScore && averageScoreKoalas > averageScoreDolphines) {
+  console.log(
+    `Hurray!! The Winner for this competition is The ${teamNameB} with a score of (${averageScoreKoalas})`
+  );
+} else { console.log("None of you is in the game"); }
 const days = [
   "Monday",
   "Tuesday",

@@ -17,19 +17,19 @@
 // console.log(person2.markBMI);
 // const markHigherBMI = markBMI;
 
-// const massMark = 78;
-// const heightMark = 1.69;
-// const massJohn = 92;
-// const heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-// const BMIMark = massMark / heightMark ** 2;
-// const BMIJohn = massJohn / heightJohn ** 2;
-// const markHigherBMI = BMIMark > BMIJohn;
-// if (markHigherBMI) {
-//   console.log(`Marks BMI ${BMIMark} is greater than John's ${BMIJohn}`);
-// } else {
-//   console.log(`John's ${BMIJohn} is greater than Marks BMI ${BMIMark}`);
-// }
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+const markHigherBMI = BMIMark > BMIJohn;
+if (markHigherBMI) {
+  console.log(`Marks BMI ${BMIMark} is greater than John's ${BMIJohn}`);
+} else {
+  console.log(`John's ${BMIJohn} is greater than Marks BMI ${BMIMark}`);
+}
 
 //Template Literals
 
@@ -59,10 +59,12 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 let height = 25;
-height ? console.log('Yah! height is defined') : console.log('Yah height is not defined')
+height
+  ? console.log("Yah! height is defined")
+  : console.log("Yah height is not defined");
 
-const age = 'age';
-if (age === 18) console.log('You just became an adulty')
+const age = "age";
+if (age === 18) console.log("You just became an adulty");
 
 const hasDriversLicense = false;
 const hasGoodVision = true;
@@ -91,15 +93,23 @@ const averageScoreKoalas =
   (scoreKoalas[0] + scoreKoalas[1] + scoreKoalas[2]) / 3;
 console.log(averageScoreDolphines);
 
-if (averageScoreDolphines > minimumScore && averageScoreDolphines > averageScoreKoalas) {
+if (
+  averageScoreDolphines > minimumScore &&
+  averageScoreDolphines > averageScoreKoalas
+) {
   console.log(
     `Hurray!! The Winner for this competition is The ${teamNameA} with a score of (${averageScoreDolphines})`
   );
-} else if (averageScoreKoalas > minimumScore && averageScoreKoalas > averageScoreDolphines) {
+} else if (
+  averageScoreKoalas > minimumScore &&
+  averageScoreKoalas > averageScoreDolphines
+) {
   console.log(
     `Hurray!! The Winner for this competition is The ${teamNameB} with a score of (${averageScoreKoalas})`
   );
-} else { console.log("None of you is in the game"); }
+} else {
+  console.log("None of you is in the game");
+}
 const days = [
   "Monday",
   "Tuesday",
